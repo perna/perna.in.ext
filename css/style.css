@@ -1,0 +1,33 @@
+.container{
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    min-height: 100%;
+}
+
+.short-url{
+    color:#fff;
+    padding:10px;
+}
+
+.short-url a {text-decoration: none;color:#fff;}
+.short-url a:hover {text-decoration: underline;}
+
+.button-copy{
+    display:block;
+    margin:5px auto;
+    background:#5cb85c;
+    border: 1px solid transparent;
+    border-color: #4cae4c;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.button-copy.active{
+    background: #c9302c;
+    border: #ac2925;
+}
+
+.short-url-container{display:none;}
+#short_url{border-radius:4px;background:#0084B4;border:none;color:#fff;padding:5px 10px;}
